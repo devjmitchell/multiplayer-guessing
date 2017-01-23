@@ -20,9 +20,9 @@ def compare(num):
     if num == random_number:
         print("\n*** Congrats, %s! You guessed the number. You win! ***" % (players[current_player - 1]))
     elif num > random_number:
-        print("\n*** You guessed too high! ***")
+        print("\nLower...")
     elif num < random_number:
-        print("\n*** You guessed too low! ***")
+        print("\nHigher...")
     else:
         print("\n*** Well, something didn't work! ***")
 
